@@ -1,0 +1,20 @@
+{
+  "name": "myhero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "jest"
+  },
+  "author": "Daniel Vaz Villalobos Martins",
+  "license": "ISC",
+  "dependencies": {
+    "celebrate": "^12.0.1",
+    "express": "^4.17.1",
+    "jest": "^25.2.3",
+    "knex": "^0.20.13",
+    "morgan": "^1.10.0",
+    "sqlite3": "^4.1.1"
+  }
+}

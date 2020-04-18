@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+    .title {
+        color: #41414d;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        color: #41414d;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .heroImg {
+        width: 380px;
+    }
+}

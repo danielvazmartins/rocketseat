@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: #e1e1f1;
+}
+
+form {
+    padding: 20px;
+
+    input[type='text'], input[type='email'] {
+        height: 60px;
+        border-radius: 8px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .button {
+        width: 100%;
+        height: 60px;
+        border-radius: 8px;
+        background: #e01e41;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .form-line {
+        display: flex;
+
+        *:first-child {
+            margin-right: 10px;
+        }
+    }
+}
